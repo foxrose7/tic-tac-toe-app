@@ -1,0 +1,12 @@
+.game{
+  display: flex;
+  font-display: row;
+}
+/* .game-board{
+
+
+} */
+
+.game-info{
+  margin-left: 20px;
+}
