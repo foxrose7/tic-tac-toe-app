@@ -1,15 +1,17 @@
 import React from 'react';
-import "./Square.css";
+import './Square.css';
 
-export default class Sqluare extends React.Component{
-
-  render(){
+export default class Sqluare extends React.Component {
+  render() {
     return (
-      <button className="square" onClick={()=>{
-        console.log('click')
-      }} >
+      <button
+        className='square'
+        onClick={() => {
+          this.props.onClick();
+        }}
+      >
         {this.props.value}
       </button>
-    )
+    );
   }
 }
